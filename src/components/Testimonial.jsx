@@ -52,7 +52,7 @@ const Testimonial = () => {
         <div className='my-16'>
           <Link
             to='#'
-            className='p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight'
+            className='p-3 px-6 pt-2 text-white bg-red-500 rounded-full baseline hover:bg-brightRedLight'
           >
             Get Started
           </Link>
