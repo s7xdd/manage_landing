@@ -35,7 +35,7 @@ const Navbar = () => {
         {/* Button */}
         <Link
           to='#'
-          className='hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block'
+          className='hidden p-3 px-6 pt-2 text-white bg-red-500 rounded-full baseline hover:bg-brightRedLight md:block'
         >
           Get Started
         </Link>
