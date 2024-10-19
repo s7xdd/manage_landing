@@ -9,7 +9,7 @@ import instagramLogo from '../assets/images/icon-instagram.svg';
 
 const Footer = () => {
   return (
-    <div className='bg-veryDarkBlue'>
+    <div className='bg-blue-950'>
       {/* Flex Container */}
       <div className='container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0'>
         {/* Logo and social links container */}
@@ -48,27 +48,27 @@ const Footer = () => {
         {/* List Container */}
         <div className='flex justify-around space-x-32'>
           <div className='flex flex-col space-y-3 text-white'>
-            <Link to='#' className='hover:text-brightRed'>
+            <Link to='#' className='hover:text-red-500'>
               Home
             </Link>
-            <Link to='#' className='hover:text-brightRed'>
+            <Link to='#' className='hover:text-red-500'>
               Pricing
             </Link>
-            <Link to='#' className='hover:text-brightRed'>
+            <Link to='#' className='hover:text-red-500'>
               Products
             </Link>
-            <Link to='#' className='hover:text-brightRed'>
+            <Link to='#' className='hover:text-red-500'>
               About
             </Link>
           </div>
           <div className='flex flex-col space-y-3 text-white'>
-            <Link to='#' className='hover:text-brightRed'>
+            <Link to='#' className='hover:text-red-500'>
               Careers
             </Link>
-            <Link to='#' className='hover:text-brightRed'>
+            <Link to='#' className='hover:text-red-500'>
               Community
             </Link>
-            <Link to='#' className='hover:text-brightRed'>
+            <Link to='#' className='hover:text-red-500'>
               Privacy Policy
             </Link>
           </div>
@@ -83,7 +83,7 @@ const Footer = () => {
                 className='flex-1 px-4 rounded-full focus:outline-none'
                 placeholder='Updated in your inbox'
               />
-              <button className='px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none'>
+              <button className='px-6 py-2 text-white rounded-full bg-red-500 hover:bg-brightRedLight focus:outline-none'>
                 Go
               </button>
             </div>

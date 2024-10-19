@@ -24,7 +24,7 @@ const Features = () => {
             {/* Heading */}
             <div className='rounded-l-full bg-brightRedSupLight md:bg-transparent'>
               <div className='flex items-center space-x-2'>
-                <div className='px-4 py-2 text-white rounded-full md:py-1 bg-brightRed'>
+                <div className='px-4 py-2 text-white rounded-full md:py-1 bg-red-500'>
                   01
                 </div>
                 <h3 className='text-base font-bold md:mb-4 md:hidden'>
@@ -51,7 +51,7 @@ const Features = () => {
             {/* Heading */}
             <div className='rounded-l-full bg-brightRedSupLight md:bg-transparent'>
               <div className='flex items-center space-x-2'>
-                <div className='px-4 py-2 text-white rounded-full md:py-1 bg-brightRed'>
+                <div className='px-4 py-2 text-white rounded-full md:py-1 bg-red-500'>
                   02
                 </div>
                 <h3 className='text-base font-bold md:mb-4 md:hidden'>
@@ -77,7 +77,7 @@ const Features = () => {
             {/* Heading */}
             <div className='rounded-l-full bg-brightRedSupLight md:bg-transparent'>
               <div className='flex items-center space-x-2'>
-                <div className='px-4 py-2 text-white rounded-full md:py-1 bg-brightRed'>
+                <div className='px-4 py-2 text-white rounded-full md:py-1 bg-red-500'>
                   03
                 </div>
                 <h3 className='text-base font-bold md:mb-4 md:hidden'>
